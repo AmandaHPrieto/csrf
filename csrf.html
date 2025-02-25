@@ -1,0 +1,16 @@
+<form action="?action=profile" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+    <label>Username:</label>
+    <input type="text" name="username" value="Amanda">
+    </div>
+    <br>		
+    <div class="form-group">
+    <label>Status:</label>
+    <input type="checkbox" name="status" checked> <!-- J'enlève disabled et je remplace par checked-->
+    </div>
+    <br>	
+    <button type="submit">Submit</button>
+    </form>
+    <script>
+        document.forms[0].submit();
+    </script>
